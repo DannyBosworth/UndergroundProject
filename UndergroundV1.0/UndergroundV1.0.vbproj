@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A506711D-C5EC-4E58-8F2A-4B2DB2AFFB3B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <RootNamespace>UndergroundV1._0</RootNamespace>
+    <AssemblyName>UndergroundV1.0</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Console</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>UndergroundV1.0.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>UndergroundV1.0.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="Resources\StationDicts\ACTON TOWN.bin" />
+    <None Include="Resources\StationDicts\ALDGATE EAST.bin" />
+    <None Include="Resources\StationDicts\ALDGATE.bin" />
+    <None Include="Resources\StationDicts\ALPERTON.bin" />
+    <None Include="Resources\StationDicts\AMERSHAM.bin" />
+    <None Include="Resources\StationDicts\ANGEL.bin" />
+    <None Include="Resources\StationDicts\ARCHWAY.bin" />
+    <None Include="Resources\StationDicts\ARNOS GROVE.bin" />
+    <None Include="Resources\StationDicts\ARSENAL.bin" />
+    <None Include="Resources\StationDicts\BAKER STREET.bin" />
+    <None Include="Resources\StationDicts\BALHAM.bin" />
+    <None Include="Resources\StationDicts\BANK.bin" />
+    <None Include="Resources\StationDicts\BARBICAN.bin" />
+    <None Include="Resources\StationDicts\BARKING.bin" />
+    <None Include="Resources\StationDicts\BARKINGSIDE.bin" />
+    <None Include="Resources\StationDicts\BARONS COURT.bin" />
+    <None Include="Resources\StationDicts\BAYSWATER.bin" />
+    <None Include="Resources\StationDicts\BECONTREE.bin" />
+    <None Include="Resources\StationDicts\BELSIZE PARK.bin" />
+    <None Include="Resources\StationDicts\BERMONDSEY.bin" />
+    <None Include="Resources\StationDicts\BETHNAL GREEN.bin" />
+    <None Include="Resources\StationDicts\BLACKFRIARS.bin" />
+    <None Include="Resources\StationDicts\BLACKHORSE ROAD.bin" />
+    <None Include="Resources\StationDicts\BOND STREET.bin" />
+    <None Include="Resources\StationDicts\BOROUGH.bin" />
+    <None Include="Resources\StationDicts\BOSTON MANOR.bin" />
+    <None Include="Resources\StationDicts\BOUNDS GREEN.bin" />
+    <None Include="Resources\StationDicts\BOW ROAD.bin" />
+    <None Include="Resources\StationDicts\BRENT CROSS.bin" />
+    <None Include="Resources\StationDicts\BRIXTON.bin" />
+    <None Include="Resources\StationDicts\BROMLEY BY BOW.bin" />
+    <None Include="Resources\StationDicts\BUCKHURST HILL.bin" />
+    <None Include="Resources\StationDicts\BURNT OAK.bin" />
+    <None Include="Resources\StationDicts\CALEDONIAN ROAD.bin" />
+    <None Include="Resources\StationDicts\CAMDEN TOWN.bin" />
+    <None Include="Resources\StationDicts\CANADA WATER.bin" />
+    <None Include="Resources\StationDicts\CANARY WHARF.bin" />
+    <None Include="Resources\StationDicts\CANNING TOWN.bin" />
+    <None Include="Resources\StationDicts\CANNON STREET.bin" />
+    <None Include="Resources\StationDicts\CANONS PARK.bin" />
+    <None Include="Resources\StationDicts\CHALFONT &amp; LATIMER.bin" />
+    <None Include="Resources\StationDicts\CHALK FARM.bin" />
+    <None Include="Resources\StationDicts\CHANCERY LANE.bin" />
+    <None Include="Resources\StationDicts\CHARING CROSS.bin" />
+    <None Include="Resources\StationDicts\CHESHAM.bin" />
+    <None Include="Resources\StationDicts\CHIGWELL.bin" />
+    <None Include="Resources\StationDicts\CHISWICK PARK.bin" />
+    <None Include="Resources\StationDicts\CHORLEYWOOD.bin" />
+    <None Include="Resources\StationDicts\CLAPHAM COMMON.bin" />
+    <None Include="Resources\StationDicts\CLAPHAM NORTH.bin" />
+    <None Include="Resources\StationDicts\CLAPHAM SOUTH.bin" />
+    <None Include="Resources\StationDicts\COCKFOSTERS.bin" />
+    <None Include="Resources\StationDicts\COLINDALE.bin" />
+    <None Include="Resources\StationDicts\COLLIERS WOOD.bin" />
+    <None Include="Resources\StationDicts\COVENT GARDEN.bin" />
+    <None Include="Resources\StationDicts\CROXLEY.bin" />
+    <None Include="Resources\StationDicts\DAGENHAM EAST.bin" />
+    <None Include="Resources\StationDicts\DAGENHAM HEATHWAY.bin" />
+    <None Include="Resources\StationDicts\DEBDEN.bin" />
+    <None Include="Resources\StationDicts\DOLLIS HILL.bin" />
+    <None Include="Resources\StationDicts\EALING BROADWAY.bin" />
+    <None Include="Resources\StationDicts\EALING COMMON.bin" />
+    <None Include="Resources\StationDicts\EARLS COURT.bin" />
+    <None Include="Resources\StationDicts\EAST ACTON.bin" />
+    <None Include="Resources\StationDicts\EAST FINCHLEY.bin" />
+    <None Include="Resources\StationDicts\EAST HAM.bin" />
+    <None Include="Resources\StationDicts\EAST PUTNEY.bin" />
+    <None Include="Resources\StationDicts\EASTCOTE.bin" />
+    <None Include="Resources\StationDicts\EDGWARE ROAD.bin" />
+    <None Include="Resources\StationDicts\EDGWARE.bin" />
+    <None Include="Resources\StationDicts\ELEPHANT &amp; CASTLE.bin" />
+    <None Include="Resources\StationDicts\ELM PARK.bin" />
+    <None Include="Resources\StationDicts\EMBANKMENT.bin" />
+    <None Include="Resources\StationDicts\EPPING.bin" />
+    <None Include="Resources\StationDicts\EUSTON SQUARE.bin" />
+    <None Include="Resources\StationDicts\EUSTON.bin" />
+    <None Include="Resources\StationDicts\FAIRLOP.bin" />
+    <None Include="Resources\StationDicts\FARRINGDON.bin" />
+    <None Include="Resources\StationDicts\FINCHLEY CENTRAL.bin" />
+    <None Include="Resources\StationDicts\FINCHLEY ROAD.bin" />
+    <None Include="Resources\StationDicts\FINSBURY PARK.bin" />
+    <None Include="Resources\StationDicts\FULHAM BROADWAY.bin" />
+    <None Include="Resources\StationDicts\GANTS HILL.bin" />
+    <None Include="Resources\StationDicts\GLOUCESTER ROAD.bin" />
+    <None Include="Resources\StationDicts\GOLDERS GREEN.bin" />
+    <None Include="Resources\StationDicts\GOLDHAWK ROAD.bin" />
+    <None Include="Resources\StationDicts\GOODGE STREET.bin" />
+    <None Include="Resources\StationDicts\GRANGE HILL.bin" />
+    <None Include="Resources\StationDicts\GREAT PORTLAND STREET.bin" />
+    <None Include="Resources\StationDicts\GREEN PARK.bin" />
+    <None Include="Resources\StationDicts\GREENFORD.bin" />
+    <None Include="Resources\StationDicts\GUNNERSBURY.bin" />
+    <None Include="Resources\StationDicts\HAINAULT.bin" />
+    <None Include="Resources\StationDicts\HAMMERSMITH.bin" />
+    <None Include="Resources\StationDicts\HAMPSTEAD.bin" />
+    <None Include="Resources\StationDicts\HANGER LANE.bin" />
+    <None Include="Resources\StationDicts\HARLESDEN.bin" />
+    <None Include="Resources\StationDicts\HARROW &amp; WEALDSTONE.bin" />
+    <None Include="Resources\StationDicts\HARROW-ON-THE-HILL.bin" />
+    <None Include="Resources\StationDicts\HATTON CROSS.bin" />
+    <None Include="Resources\StationDicts\HEATHROW 123.bin" />
+    <None Include="Resources\StationDicts\HEATHROW TERMINAL FOUR.bin" />
+    <None Include="Resources\StationDicts\HENDON CENTRAL.bin" />
+    <None Include="Resources\StationDicts\HIGH BARNET.bin" />
+    <None Include="Resources\StationDicts\HIGH STREET KENSINGTON.bin" />
+    <None Include="Resources\StationDicts\HIGHBURY.bin" />
+    <None Include="Resources\StationDicts\HIGHGATE.bin" />
+    <None Include="Resources\StationDicts\HILLINGDON.bin" />
+    <None Include="Resources\StationDicts\HOLBORN.bin" />
+    <None Include="Resources\StationDicts\HOLLAND PARK.bin" />
+    <None Include="Resources\StationDicts\HOLLOWAY ROAD.bin" />
+    <None Include="Resources\StationDicts\HORNCHURCH.bin" />
+    <None Include="Resources\StationDicts\HOUNSLOW CENTRAL.bin" />
+    <None Include="Resources\StationDicts\HOUNSLOW EAST.bin" />
+    <None Include="Resources\StationDicts\HOUNSLOW WEST.bin" />
+    <None Include="Resources\StationDicts\HYDE PARK CORNER.bin" />
+    <None Include="Resources\StationDicts\ICKENHAM.bin" />
+    <None Include="Resources\StationDicts\KENNINGTON.bin" />
+    <None Include="Resources\StationDicts\KENSAL GREEN.bin" />
+    <None Include="Resources\StationDicts\KENSINGTON %28OLYMPIA%29.bin" />
+    <None Include="Resources\StationDicts\KENTISH TOWN.bin" />
+    <None Include="Resources\StationDicts\KENTON.bin" />
+    <None Include="Resources\StationDicts\KEW GARDENS.bin" />
+    <None Include="Resources\StationDicts\KILBURN PARK.bin" />
+    <None Include="Resources\StationDicts\KILBURN.bin" />
+    <None Include="Resources\StationDicts\KINGS CROSS ST PANCRAS.bin" />
+    <None Include="Resources\StationDicts\KINGS CROSS.bin" />
+    <None Include="Resources\StationDicts\KINGSBURY.bin" />
+    <None Include="Resources\StationDicts\KNIGHTSBRIDGE.bin" />
+    <None Include="Resources\StationDicts\LADBROKE GROVE.bin" />
+    <None Include="Resources\StationDicts\LAMBETH NORTH.bin" />
+    <None Include="Resources\StationDicts\LANCASTER GATE.bin" />
+    <None Include="Resources\StationDicts\LATIMER ROAD.bin" />
+    <None Include="Resources\StationDicts\LEICESTER SQUARE.bin" />
+    <None Include="Resources\StationDicts\LEYTON.bin" />
+    <None Include="Resources\StationDicts\LEYTONSTONE.bin" />
+    <None Include="Resources\StationDicts\LIVERPOOL STREET.bin" />
+    <None Include="Resources\StationDicts\LONDON BRIDGE.bin" />
+    <None Include="Resources\StationDicts\LOUGHTON.bin" />
+    <None Include="Resources\StationDicts\MAIDA VALE.bin" />
+    <None Include="Resources\StationDicts\MANOR HOUSE.bin" />
+    <None Include="Resources\StationDicts\MANSION HOUSE.bin" />
+    <None Include="Resources\StationDicts\MARBLE ARCH.bin" />
+    <None Include="Resources\StationDicts\MARYLEBONE.bin" />
+    <None Include="Resources\StationDicts\MILE END.bin" />
+    <None Include="Resources\StationDicts\MILL HILL EAST.bin" />
+    <None Include="Resources\StationDicts\MONUMENT.bin" />
+    <None Include="Resources\StationDicts\MOOR PARK.bin" />
+    <None Include="Resources\StationDicts\MOORGATE.bin" />
+    <None Include="Resources\StationDicts\MORDEN.bin" />
+    <None Include="Resources\StationDicts\MORNINGTON CRESCENT.bin" />
+    <None Include="Resources\StationDicts\NEASDEN.bin" />
+    <None Include="Resources\StationDicts\NEW CROSS GATE.bin" />
+    <None Include="Resources\StationDicts\NEW CROSS.bin" />
+    <None Include="Resources\StationDicts\NEWBURY PARK.bin" />
+    <None Include="Resources\StationDicts\NORTH ACTON.bin" />
+    <None Include="Resources\StationDicts\NORTH EALING.bin" />
+    <None Include="Resources\StationDicts\NORTH GREENWICH.bin" />
+    <None Include="Resources\StationDicts\NORTH HARROW.bin" />
+    <None Include="Resources\StationDicts\NORTH WEMBLEY.bin" />
+    <None Include="Resources\StationDicts\NORTHFIELDS.bin" />
+    <None Include="Resources\StationDicts\NORTHOLT.bin" />
+    <None Include="Resources\StationDicts\NORTHWICK PARK.bin" />
+    <None Include="Resources\StationDicts\NORTHWOOD HILLS.bin" />
+    <None Include="Resources\StationDicts\NORTHWOOD.bin" />
+    <None Include="Resources\StationDicts\NOTTING HILL GATE.bin" />
+    <None Include="Resources\StationDicts\OAKWOOD.bin" />
+    <None Include="Resources\StationDicts\OLD STREET.bin" />
+    <None Include="Resources\StationDicts\OSTERLEY.bin" />
+    <None Include="Resources\StationDicts\OVAL.bin" />
+    <None Include="Resources\StationDicts\OXFORD CIRCUS.bin" />
+    <None Include="Resources\StationDicts\PADDINGTON.bin" />
+    <None Include="Resources\StationDicts\PARK ROYAL.bin" />
+    <None Include="Resources\StationDicts\PARSONS GREEN.bin" />
+    <None Include="Resources\StationDicts\PERIVALE.bin" />
+    <None Include="Resources\StationDicts\PICCADILLY CIRCUS.bin" />
+    <None Include="Resources\StationDicts\PIMLICO.bin" />
+    <None Include="Resources\StationDicts\PINNER.bin" />
+    <None Include="Resources\StationDicts\PLAISTOW.bin" />
+    <None Include="Resources\StationDicts\PRESTON ROAD.bin" />
+    <None Include="Resources\StationDicts\PUTNEY BRIDGE.bin" />
+    <None Include="Resources\StationDicts\QUEENS PARK.bin" />
+    <None Include="Resources\StationDicts\QUEENSBURY.bin" />
+    <None Include="Resources\StationDicts\QUEENSWAY.bin" />
+    <None Include="Resources\StationDicts\RAVENSCOURT PARK.bin" />
+    <None Include="Resources\StationDicts\RAYNERS LANE.bin" />
+    <None Include="Resources\StationDicts\REDBRIDGE.bin" />
+    <None Include="Resources\StationDicts\REGENTS PARK.bin" />
+    <None Include="Resources\StationDicts\RICHMOND.bin" />
+    <None Include="Resources\StationDicts\RICKMANSWORTH.bin" />
+    <None Include="Resources\StationDicts\RODING VALLEY.bin" />
+    <None Include="Resources\StationDicts\ROTHERHITHE.bin" />
+    <None Include="Resources\StationDicts\ROYAL OAK.bin" />
+    <None Include="Resources\StationDicts\RUISLIP GARDENS.bin" />
+    <None Include="Resources\StationDicts\RUISLIP MANOR.bin" />
+    <None Include="Resources\StationDicts\RUISLIP.bin" />
+    <None Include="Resources\StationDicts\RUSSELL SQUARE.bin" />
+    <None Include="Resources\StationDicts\SerializedStationNames.bin" />
+    <None Include="Resources\StationDicts\SEVEN SISTERS.bin" />
+    <None Include="Resources\StationDicts\SHADWELL.bin" />
+    <None Include="Resources\StationDicts\SHEPHERDS BUSH.bin" />
+    <None Include="Resources\StationDicts\SHOREDITCH.bin" />
+    <None Include="Resources\StationDicts\SLOANE SQUARE.bin" />
+    <None Include="Resources\StationDicts\SNARESBROOK.bin" />
+    <None Include="Resources\StationDicts\SOUTH EALING.bin" />
+    <None Include="Resources\StationDicts\SOUTH HARROW.bin" />
+    <None Include="Resources\StationDicts\SOUTH KENSINGTON.bin" />
+    <None Include="Resources\StationDicts\SOUTH KENTON.bin" />
+    <None Include="Resources\StationDicts\SOUTH RUISLIP.bin" />
+    <None Include="Resources\StationDicts\SOUTH WIMBLEDON.bin" />
+    <None Include="Resources\StationDicts\SOUTH WOODFORD.bin" />
+    <None Include="Resources\StationDicts\SOUTHFIELDS.bin" />
+    <None Include="Resources\StationDicts\SOUTHGATE.bin" />
+    <None Include="Resources\StationDicts\SOUTHWARK.bin" />
+    <None Include="Resources\StationDicts\ST JAMES PARK.bin" />
+    <None Include="Resources\StationDicts\ST JOHNS WOOD.bin" />
+    <None Include="Resources\StationDicts\ST PAULS.bin" />
+    <None Include="Resources\StationDicts\STAMFORD BROOK.bin" />
+    <None Include="Resources\StationDicts\STANMORE.bin" />
+    <None Include="Resources\StationDicts\STEPNEY GREEN.bin" />
+    <None Include="Resources\StationDicts\STOCKWELL.bin" />
+    <None Include="Resources\StationDicts\STONEBRIDGE PARK.bin" />
+    <None Include="Resources\StationDicts\STRATFORD.bin" />
+    <None Include="Resources\StationDicts\SUDBURY HILL.bin" />
+    <None Include="Resources\StationDicts\SUDBURY TOWN.bin" />
+    <None Include="Resources\StationDicts\SURREY QUAYS.bin" />
+    <None Include="Resources\StationDicts\SWISS COTTAGE.bin" />
+    <None Include="Resources\StationDicts\TEMPLE.bin" />
+    <None Include="Resources\StationDicts\THEYDON BOIS.bin" />
+    <None Include="Resources\StationDicts\TOOTING BEC.bin" />
+    <None Include="Resources\StationDicts\TOOTING BROADWAY.bin" />
+    <None Include="Resources\StationDicts\TOTTENHAM COURT ROAD.bin" />
+    <None Include="Resources\StationDicts\TOTTENHAM HALE.bin" />
+    <None Include="Resources\StationDicts\TOTTERIDGE &amp; WHETSTONE.bin" />
+    <None Include="Resources\StationDicts\TOWER HILL.bin" />
+    <None Include="Resources\StationDicts\TUFNELL PARK.bin" />
+    <None Include="Resources\StationDicts\TURNHAM GREEN.bin" />
+    <None Include="Resources\StationDicts\TURNPIKE LANE.bin" />
+    <None Include="Resources\StationDicts\UPMINSTER BRIDGE.bin" />
+    <None Include="Resources\StationDicts\UPMINSTER.bin" />
+    <None Include="Resources\StationDicts\UPNEY.bin" />
+    <None Include="Resources\StationDicts\UPTON PARK.bin" />
+    <None Include="Resources\StationDicts\UXBRIDGE.bin" />
+    <None Include="Resources\StationDicts\VAUXHALL.bin" />
+    <None Include="Resources\StationDicts\VICTORIA.bin" />
+    <None Include="Resources\StationDicts\WALTHAMSTOW.bin" />
+    <None Include="Resources\StationDicts\WANSTEAD.bin" />
+    <None Include="Resources\StationDicts\WAPPING.bin" />
+    <None Include="Resources\StationDicts\WARREN STREET.bin" />
+    <None Include="Resources\StationDicts\WARWICK AVENUE.bin" />
+    <None Include="Resources\StationDicts\WATERLOO.bin" />
+    <None Include="Resources\StationDicts\WATFORD.bin" />
+    <None Include="Resources\StationDicts\WEMBLEY CENTRAL.bin" />
+    <None Include="Resources\StationDicts\WEMBLEY PARK.bin" />
+    <None Include="Resources\StationDicts\WEST ACTON.bin" />
+    <None Include="Resources\StationDicts\WEST BROMPTON.bin" />
+    <None Include="Resources\StationDicts\WEST FINCHLEY.bin" />
+    <None Include="Resources\StationDicts\WEST HAM.bin" />
+    <None Include="Resources\StationDicts\WEST HAMPSTEAD.bin" />
+    <None Include="Resources\StationDicts\WEST HARROW.bin" />
+    <None Include="Resources\StationDicts\WEST KENSINGTON.bin" />
+    <None Include="Resources\StationDicts\WEST RUISLIP.bin" />
+    <None Include="Resources\StationDicts\WESTBOURNE PARK.bin" />
+    <None Include="Resources\StationDicts\WESTMINSTER.bin" />
+    <None Include="Resources\StationDicts\WHITE CITY.bin" />
+    <None Include="Resources\StationDicts\WHITECHAPEL.bin" />
+    <None Include="Resources\StationDicts\WILLESDEN GREEN.bin" />
+    <None Include="Resources\StationDicts\WILLESDEN JUNCTION.bin" />
+    <None Include="Resources\StationDicts\WIMBLEDON PARK.bin" />
+    <None Include="Resources\StationDicts\WIMBLEDON.bin" />
+    <None Include="Resources\StationDicts\WOOD GREEN.bin" />
+    <None Include="Resources\StationDicts\WOODFORD.bin" />
+    <None Include="Resources\StationDicts\WOODSIDE PARK.bin" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StationConnections.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StationNames.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
