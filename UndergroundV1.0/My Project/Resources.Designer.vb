@@ -2033,16 +2033,6 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Byte[].
         '''</summary>
-        Friend ReadOnly Property SerializedStationNames() As Byte()
-            Get
-                Dim obj As Object = ResourceManager.GetObject("SerializedStationNames", resourceCulture)
-                Return CType(obj,Byte())
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Byte[].
-        '''</summary>
         Friend ReadOnly Property SEVEN_SISTERS() As Byte()
             Get
                 Dim obj As Object = ResourceManager.GetObject("SEVEN_SISTERS", resourceCulture)

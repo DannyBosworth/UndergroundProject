@@ -4,14 +4,31 @@ Imports System.Reflection.Assembly
 Imports System.Reflection
 
 Module Main
+
     Sub Main()
-        Dim bf As New BinaryFormatter
-        Console.WriteLine("Choose a Station")
-        Dim Station = Console.ReadLine()
-        Using ms As New MemoryStream(My.Resources.ACTON_TOWN)
-            For Each l In bf.Deserialize(ms)
-                Console.WriteLine(l)
-            Next
-        End Using
     End Sub
+    Sub shortestRoute()
+        Console.WriteLine("Enter a Start Station: ")
+        Dim Start = Console.ReadLine
+        Console.WriteLine("Enter a Finish Station")
+        Dim Finish = Console.ReadLine
+        Dim ShortestRoutes As Dictionary(Of Integer, DijkNode) = Deserialize(Start.Replace(" ", "_").ToUpper)
+        Console.WriteLine("The shortest distance from " & Start & " to " & Finish & " is " & ShortestRoutes.First(Function(x) x.Value.Name.Replace("_", " ").ToUpper = Finish.ToUpper).Value.Distance & "km")
+    End Sub
+
+    Function Deserialize(Name As String) As Dictionary(Of Integer, DijkNode)
+        Using ms = New MemoryStream(CType(My.Resources.ResourceManager.GetObject(Name), Byte()))
+            Dim bf As New BinaryFormatter()
+            Return bf.Deserialize(ms)
+        End Using
+    End Function
+    <Serializable> Class DijkNode ' structure used to store stations for use in dijkstras algorithm
+        Public Name As String
+        Public Cost As Decimal
+        Public Distance As Decimal
+        Public IdealTime As Decimal
+        Public PeakTime As Decimal
+        Public OffPeakTime As Decimal
+        Public Prev As Integer
+    End Class
 End Module

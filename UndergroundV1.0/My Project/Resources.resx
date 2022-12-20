@@ -119,13 +119,13 @@
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="ACTON_TOWN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\ACTON TOWN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\ACTON_TOWN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ALDGATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\ALDGATE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ALDGATE_EAST" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\ALDGATE EAST.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\ALDGATE_EAST.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ALPERTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\ALPERTON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -140,13 +140,13 @@
     <value>..\Resources\StationDicts\ARCHWAY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ARNOS_GROVE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\ARNOS GROVE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\ARNOS_GROVE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ARSENAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\ARSENAL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BAKER_STREET" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\BAKER STREET.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\BAKER_STREET.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BALHAM" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\BALHAM.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -164,7 +164,7 @@
     <value>..\Resources\StationDicts\BARKINGSIDE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BARONS_COURT" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\BARONS COURT.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\BARONS_COURT.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BAYSWATER" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\BAYSWATER.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -173,82 +173,82 @@
     <value>..\Resources\StationDicts\BECONTREE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BELSIZE_PARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\BELSIZE PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\BELSIZE_PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BERMONDSEY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\BERMONDSEY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BETHNAL_GREEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\BETHNAL GREEN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\BETHNAL_GREEN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BLACKFRIARS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\BLACKFRIARS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BLACKHORSE_ROAD" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\BLACKHORSE ROAD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\BLACKHORSE_ROAD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BOND_STREET" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\BOND STREET.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\BOND_STREET.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BOROUGH" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\BOROUGH.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BOSTON_MANOR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\BOSTON MANOR.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\BOSTON_MANOR.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BOUNDS_GREEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\BOUNDS GREEN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\BOUNDS_GREEN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BOW_ROAD" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\BOW ROAD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\BOW_ROAD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BRENT_CROSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\BRENT CROSS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\BRENT_CROSS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BRIXTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\BRIXTON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BROMLEY_BY_BOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\BROMLEY BY BOW.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\BROMLEY_BY_BOW.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BUCKHURST_HILL" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\BUCKHURST HILL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\BUCKHURST_HILL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BURNT_OAK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\BURNT OAK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\BURNT_OAK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CALEDONIAN_ROAD" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\CALEDONIAN ROAD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\CALEDONIAN_ROAD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CAMDEN_TOWN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\CAMDEN TOWN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\CAMDEN_TOWN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CANADA_WATER" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\CANADA WATER.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\CANADA_WATER.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CANARY_WHARF" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\CANARY WHARF.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\CANARY_WHARF.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CANNING_TOWN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\CANNING TOWN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\CANNING_TOWN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CANNON_STREET" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\CANNON STREET.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\CANNON_STREET.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CANONS_PARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\CANONS PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\CANONS_PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CHALFONT___LATIMER" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\CHALFONT &amp; LATIMER.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\CHALFONT_&amp;_LATIMER.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CHALK_FARM" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\CHALK FARM.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\CHALK_FARM.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CHANCERY_LANE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\CHANCERY LANE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\CHANCERY_LANE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CHARING_CROSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\CHARING CROSS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\CHARING_CROSS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CHESHAM" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\CHESHAM.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -257,19 +257,19 @@
     <value>..\Resources\StationDicts\CHIGWELL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CHISWICK_PARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\CHISWICK PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\CHISWICK_PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CHORLEYWOOD" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\CHORLEYWOOD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CLAPHAM_COMMON" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\CLAPHAM COMMON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\CLAPHAM_COMMON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CLAPHAM_NORTH" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\CLAPHAM NORTH.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\CLAPHAM_NORTH.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CLAPHAM_SOUTH" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\CLAPHAM SOUTH.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\CLAPHAM_SOUTH.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="COCKFOSTERS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\COCKFOSTERS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -278,61 +278,61 @@
     <value>..\Resources\StationDicts\COLINDALE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="COLLIERS_WOOD" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\COLLIERS WOOD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\COLLIERS_WOOD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="COVENT_GARDEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\COVENT GARDEN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\COVENT_GARDEN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CROXLEY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\CROXLEY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="DAGENHAM_EAST" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\DAGENHAM EAST.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\DAGENHAM_EAST.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="DAGENHAM_HEATHWAY" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\DAGENHAM HEATHWAY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\DAGENHAM_HEATHWAY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="DEBDEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\DEBDEN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="DOLLIS_HILL" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\DOLLIS HILL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\DOLLIS_HILL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="EALING_BROADWAY" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\EALING BROADWAY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\EALING_BROADWAY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="EALING_COMMON" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\EALING COMMON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\EALING_COMMON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="EARLS_COURT" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\EARLS COURT.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\EARLS_COURT.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="EASTCOTE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\EASTCOTE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="EAST_ACTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\EAST ACTON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\EAST_ACTON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="EAST_FINCHLEY" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\EAST FINCHLEY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\EAST_FINCHLEY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="EAST_HAM" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\EAST HAM.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\EAST_HAM.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="EAST_PUTNEY" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\EAST PUTNEY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\EAST_PUTNEY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="EDGWARE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\EDGWARE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="EDGWARE_ROAD" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\EDGWARE ROAD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\EDGWARE_ROAD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ELEPHANT___CASTLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\ELEPHANT &amp; CASTLE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\ELEPHANT_&amp;_CASTLE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ELM_PARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\ELM PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\ELM_PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="EMBANKMENT" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\EMBANKMENT.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -344,7 +344,7 @@
     <value>..\Resources\StationDicts\EUSTON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="EUSTON_SQUARE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\EUSTON SQUARE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\EUSTON_SQUARE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="FAIRLOP" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\FAIRLOP.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -353,43 +353,43 @@
     <value>..\Resources\StationDicts\FARRINGDON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="FINCHLEY_CENTRAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\FINCHLEY CENTRAL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\FINCHLEY_CENTRAL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="FINCHLEY_ROAD" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\FINCHLEY ROAD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\FINCHLEY_ROAD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="FINSBURY_PARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\FINSBURY PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\FINSBURY_PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="FULHAM_BROADWAY" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\FULHAM BROADWAY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\FULHAM_BROADWAY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="GANTS_HILL" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\GANTS HILL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\GANTS_HILL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="GLOUCESTER_ROAD" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\GLOUCESTER ROAD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\GLOUCESTER_ROAD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="GOLDERS_GREEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\GOLDERS GREEN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\GOLDERS_GREEN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="GOLDHAWK_ROAD" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\GOLDHAWK ROAD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\GOLDHAWK_ROAD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="GOODGE_STREET" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\GOODGE STREET.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\GOODGE_STREET.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="GRANGE_HILL" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\GRANGE HILL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\GRANGE_HILL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="GREAT_PORTLAND_STREET" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\GREAT PORTLAND STREET.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\GREAT_PORTLAND_STREET.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="GREENFORD" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\GREENFORD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="GREEN_PARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\GREEN PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\GREEN_PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="GUNNERSBURY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\GUNNERSBURY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -404,7 +404,7 @@
     <value>..\Resources\StationDicts\HAMPSTEAD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="HANGER_LANE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\HANGER LANE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\HANGER_LANE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="HARLESDEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\HARLESDEN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -413,19 +413,19 @@
     <value>..\Resources\StationDicts\HARROW-ON-THE-HILL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="HARROW___WEALDSTONE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\HARROW &amp; WEALDSTONE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\HARROW_&amp;_WEALDSTONE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="HATTON_CROSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\HATTON CROSS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\HATTON_CROSS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="HEATHROW_123" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\HEATHROW 123.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\HEATHROW_123.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="HEATHROW_TERMINAL_FOUR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\HEATHROW TERMINAL FOUR.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\HEATHROW_TERMINAL_FOUR.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="HENDON_CENTRAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\HENDON CENTRAL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\HENDON_CENTRAL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="HIGHBURY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\HIGHBURY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -434,10 +434,10 @@
     <value>..\Resources\StationDicts\HIGHGATE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="HIGH_BARNET" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\HIGH BARNET.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\HIGH_BARNET.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="HIGH_STREET_KENSINGTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\HIGH STREET KENSINGTON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\HIGH_STREET_KENSINGTON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="HILLINGDON" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\HILLINGDON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -446,25 +446,25 @@
     <value>..\Resources\StationDicts\HOLBORN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="HOLLAND_PARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\HOLLAND PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\HOLLAND_PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="HOLLOWAY_ROAD" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\HOLLOWAY ROAD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\HOLLOWAY_ROAD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="HORNCHURCH" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\HORNCHURCH.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="HOUNSLOW_CENTRAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\HOUNSLOW CENTRAL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\HOUNSLOW_CENTRAL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="HOUNSLOW_EAST" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\HOUNSLOW EAST.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\HOUNSLOW_EAST.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="HOUNSLOW_WEST" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\HOUNSLOW WEST.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\HOUNSLOW_WEST.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="HYDE_PARK_CORNER" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\HYDE PARK CORNER.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\HYDE_PARK_CORNER.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ICKENHAM" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\ICKENHAM.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -473,52 +473,52 @@
     <value>..\Resources\StationDicts\KENNINGTON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="KENSAL_GREEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\KENSAL GREEN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\KENSAL_GREEN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="KENSINGTON__OLYMPIA_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\KENSINGTON (OLYMPIA).bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\KENSINGTON_(OLYMPIA).bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="KENTISH_TOWN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\KENTISH TOWN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\KENTISH_TOWN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="KENTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\KENTON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="KEW_GARDENS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\KEW GARDENS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\KEW_GARDENS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="KILBURN" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\KILBURN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="KILBURN_PARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\KILBURN PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\KILBURN_PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="KINGSBURY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\KINGSBURY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="KINGS_CROSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\KINGS CROSS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\KINGS_CROSS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="KINGS_CROSS_ST_PANCRAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\KINGS CROSS ST PANCRAS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\KINGS_CROSS_ST_PANCRAS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="KNIGHTSBRIDGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\KNIGHTSBRIDGE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="LADBROKE_GROVE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\LADBROKE GROVE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\LADBROKE_GROVE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="LAMBETH_NORTH" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\LAMBETH NORTH.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\LAMBETH_NORTH.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="LANCASTER_GATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\LANCASTER GATE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\LANCASTER_GATE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="LATIMER_ROAD" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\LATIMER ROAD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\LATIMER_ROAD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="LEICESTER_SQUARE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\LEICESTER SQUARE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\LEICESTER_SQUARE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="LEYTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\LEYTON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -527,34 +527,34 @@
     <value>..\Resources\StationDicts\LEYTONSTONE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="LIVERPOOL_STREET" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\LIVERPOOL STREET.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\LIVERPOOL_STREET.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="LONDON_BRIDGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\LONDON BRIDGE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\LONDON_BRIDGE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="LOUGHTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\LOUGHTON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="MAIDA_VALE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\MAIDA VALE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\MAIDA_VALE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="MANOR_HOUSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\MANOR HOUSE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\MANOR_HOUSE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="MANSION_HOUSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\MANSION HOUSE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\MANSION_HOUSE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="MARBLE_ARCH" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\MARBLE ARCH.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\MARBLE_ARCH.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="MARYLEBONE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\MARYLEBONE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="MILE_END" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\MILE END.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\MILE_END.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="MILL_HILL_EAST" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\MILL HILL EAST.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\MILL_HILL_EAST.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="MONUMENT" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\MONUMENT.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -563,25 +563,25 @@
     <value>..\Resources\StationDicts\MOORGATE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="MOOR_PARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\MOOR PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\MOOR_PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="MORDEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\MORDEN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="MORNINGTON_CRESCENT" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\MORNINGTON CRESCENT.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\MORNINGTON_CRESCENT.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="NEASDEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\NEASDEN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="NEWBURY_PARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\NEWBURY PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\NEWBURY_PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="NEW_CROSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\NEW CROSS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\NEW_CROSS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="NEW_CROSS_GATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\NEW CROSS GATE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\NEW_CROSS_GATE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="NORTHFIELDS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\NORTHFIELDS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -590,37 +590,37 @@
     <value>..\Resources\StationDicts\NORTHOLT.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="NORTHWICK_PARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\NORTHWICK PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\NORTHWICK_PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="NORTHWOOD" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\NORTHWOOD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="NORTHWOOD_HILLS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\NORTHWOOD HILLS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\NORTHWOOD_HILLS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="NORTH_ACTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\NORTH ACTON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\NORTH_ACTON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="NORTH_EALING" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\NORTH EALING.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\NORTH_EALING.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="NORTH_GREENWICH" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\NORTH GREENWICH.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\NORTH_GREENWICH.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="NORTH_HARROW" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\NORTH HARROW.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\NORTH_HARROW.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="NORTH_WEMBLEY" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\NORTH WEMBLEY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\NORTH_WEMBLEY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="NOTTING_HILL_GATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\NOTTING HILL GATE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\NOTTING_HILL_GATE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="OAKWOOD" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\OAKWOOD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="OLD_STREET" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\OLD STREET.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\OLD_STREET.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="OSTERLEY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\OSTERLEY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -629,22 +629,22 @@
     <value>..\Resources\StationDicts\OVAL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="OXFORD_CIRCUS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\OXFORD CIRCUS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\OXFORD_CIRCUS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="PADDINGTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\PADDINGTON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="PARK_ROYAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\PARK ROYAL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\PARK_ROYAL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="PARSONS_GREEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\PARSONS GREEN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\PARSONS_GREEN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="PERIVALE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\PERIVALE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="PICCADILLY_CIRCUS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\PICCADILLY CIRCUS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\PICCADILLY_CIRCUS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="PIMLICO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\PIMLICO.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -656,10 +656,10 @@
     <value>..\Resources\StationDicts\PLAISTOW.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="PRESTON_ROAD" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\PRESTON ROAD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\PRESTON_ROAD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="PUTNEY_BRIDGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\PUTNEY BRIDGE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\PUTNEY_BRIDGE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="QUEENSBURY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\QUEENSBURY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -668,19 +668,19 @@
     <value>..\Resources\StationDicts\QUEENSWAY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="QUEENS_PARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\QUEENS PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\QUEENS_PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="RAVENSCOURT_PARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\RAVENSCOURT PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\RAVENSCOURT_PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="RAYNERS_LANE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\RAYNERS LANE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\RAYNERS_LANE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="REDBRIDGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\REDBRIDGE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="REGENTS_PARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\REGENTS PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\REGENTS_PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="RICHMOND" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\RICHMOND.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -689,43 +689,40 @@
     <value>..\Resources\StationDicts\RICKMANSWORTH.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="RODING_VALLEY" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\RODING VALLEY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\RODING_VALLEY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ROTHERHITHE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\ROTHERHITHE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ROYAL_OAK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\ROYAL OAK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\ROYAL_OAK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="RUISLIP" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\RUISLIP.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="RUISLIP_GARDENS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\RUISLIP GARDENS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\RUISLIP_GARDENS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="RUISLIP_MANOR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\RUISLIP MANOR.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\RUISLIP_MANOR.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="RUSSELL_SQUARE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\RUSSELL SQUARE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="SerializedStationNames" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\SerializedStationNames.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\RUSSELL_SQUARE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="SEVEN_SISTERS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\SEVEN SISTERS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\SEVEN_SISTERS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="SHADWELL" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\SHADWELL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="SHEPHERDS_BUSH" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\SHEPHERDS BUSH.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\SHEPHERDS_BUSH.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="SHOREDITCH" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\SHOREDITCH.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="SLOANE_SQUARE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\SLOANE SQUARE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\SLOANE_SQUARE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="SNARESBROOK" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\SNARESBROOK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -740,28 +737,28 @@
     <value>..\Resources\StationDicts\SOUTHWARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="SOUTH_EALING" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\SOUTH EALING.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\SOUTH_EALING.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="SOUTH_HARROW" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\SOUTH HARROW.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\SOUTH_HARROW.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="SOUTH_KENSINGTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\SOUTH KENSINGTON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\SOUTH_KENSINGTON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="SOUTH_KENTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\SOUTH KENTON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\SOUTH_KENTON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="SOUTH_RUISLIP" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\SOUTH RUISLIP.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\SOUTH_RUISLIP.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="SOUTH_WIMBLEDON" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\SOUTH WIMBLEDON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\SOUTH_WIMBLEDON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="SOUTH_WOODFORD" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\SOUTH WOODFORD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\SOUTH_WOODFORD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="STAMFORD_BROOK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\STAMFORD BROOK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\STAMFORD_BROOK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="STANMORE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\STANMORE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -773,82 +770,82 @@
     <value>..\Resources\StationNames.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
   <data name="STEPNEY_GREEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\STEPNEY GREEN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\STEPNEY_GREEN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="STOCKWELL" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\STOCKWELL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="STONEBRIDGE_PARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\STONEBRIDGE PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\STONEBRIDGE_PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="STRATFORD" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\STRATFORD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ST_JAMES_PARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\ST JAMES PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\ST_JAMES_PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ST_JOHNS_WOOD" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\ST JOHNS WOOD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\ST_JOHNS_WOOD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ST_PAULS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\ST PAULS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\ST_PAULS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="SUDBURY_HILL" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\SUDBURY HILL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\SUDBURY_HILL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="SUDBURY_TOWN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\SUDBURY TOWN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\SUDBURY_TOWN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="SURREY_QUAYS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\SURREY QUAYS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\SURREY_QUAYS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="SWISS_COTTAGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\SWISS COTTAGE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\SWISS_COTTAGE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="TEMPLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\TEMPLE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="THEYDON_BOIS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\THEYDON BOIS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\THEYDON_BOIS.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="TOOTING_BEC" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\TOOTING BEC.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\TOOTING_BEC.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="TOOTING_BROADWAY" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\TOOTING BROADWAY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\TOOTING_BROADWAY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="TOTTENHAM_COURT_ROAD" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\TOTTENHAM COURT ROAD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\TOTTENHAM_COURT_ROAD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="TOTTENHAM_HALE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\TOTTENHAM HALE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\TOTTENHAM_HALE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="TOTTERIDGE___WHETSTONE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\TOTTERIDGE &amp; WHETSTONE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\TOTTERIDGE_&amp;_WHETSTONE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="TOWER_HILL" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\TOWER HILL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\TOWER_HILL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="TUFNELL_PARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\TUFNELL PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\TUFNELL_PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="TURNHAM_GREEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\TURNHAM GREEN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\TURNHAM_GREEN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="TURNPIKE_LANE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\TURNPIKE LANE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\TURNPIKE_LANE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="UPMINSTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\UPMINSTER.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="UPMINSTER_BRIDGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\UPMINSTER BRIDGE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\UPMINSTER_BRIDGE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="UPNEY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\UPNEY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="UPTON_PARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\UPTON PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\UPTON_PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="UXBRIDGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\UXBRIDGE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -869,10 +866,10 @@
     <value>..\Resources\StationDicts\WAPPING.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="WARREN_STREET" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\WARREN STREET.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\WARREN_STREET.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="WARWICK_AVENUE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\WARWICK AVENUE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\WARWICK_AVENUE.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="WATERLOO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\WATERLOO.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -881,66 +878,66 @@
     <value>..\Resources\StationDicts\WATFORD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="WEMBLEY_CENTRAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\WEMBLEY CENTRAL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\WEMBLEY_CENTRAL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="WEMBLEY_PARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\WEMBLEY PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\WEMBLEY_PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="WESTBOURNE_PARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\WESTBOURNE PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\WESTBOURNE_PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="WESTMINSTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\WESTMINSTER.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="WEST_ACTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\WEST ACTON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\WEST_ACTON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="WEST_BROMPTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\WEST BROMPTON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\WEST_BROMPTON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="WEST_FINCHLEY" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\WEST FINCHLEY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\WEST_FINCHLEY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="WEST_HAM" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\WEST HAM.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\WEST_HAM.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="WEST_HAMPSTEAD" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\WEST HAMPSTEAD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\WEST_HAMPSTEAD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="WEST_HARROW" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\WEST HARROW.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\WEST_HARROW.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="WEST_KENSINGTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\WEST KENSINGTON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\WEST_KENSINGTON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="WEST_RUISLIP" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\WEST RUISLIP.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\WEST_RUISLIP.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="WHITECHAPEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\WHITECHAPEL.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="WHITE_CITY" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\WHITE CITY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\WHITE_CITY.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="WILLESDEN_GREEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\WILLESDEN GREEN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\WILLESDEN_GREEN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="WILLESDEN_JUNCTION" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\WILLESDEN JUNCTION.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\WILLESDEN_JUNCTION.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="WIMBLEDON" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\WIMBLEDON.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="WIMBLEDON_PARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\WIMBLEDON PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\WIMBLEDON_PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="WOODFORD" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StationDicts\WOODFORD.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="WOODSIDE_PARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\WOODSIDE PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\WOODSIDE_PARK.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="WOOD_GREEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StationDicts\WOOD GREEN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\StationDicts\WOOD_GREEN.bin;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
