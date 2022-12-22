@@ -389,6 +389,7 @@
     <None Include="Resources\StationDicts\WOODFORD.bin" />
     <None Include="Resources\StationDicts\WOODSIDE_PARK.bin" />
     <None Include="Resources\StationDicts\WOOD_GREEN.bin" />
+    <None Include="Resources\StationInfo.bin" />
     <None Include="Resources\StationNames.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

@@ -1,14 +1,15 @@
 ﻿Imports System.IO
-Imports System.Runtime.InteropServices.WindowsRuntime
 Imports System.Runtime.Serialization.Formatters.Binary
+Imports System.Text.Encoding
 Module Main
 
     Private Stations(271) As Station
 
     Sub Main()
-        initStations()
-        initConnections()
-        getShortestRoutes()
+        '  initStations()
+        '  initConnections()
+        '  getShortestRoutes()
+        Stations = Deserialize()
     End Sub
     Sub initStations()
         Using reader As TextReader = New StringReader(My.Resources.StationNames)
@@ -45,6 +46,7 @@ Module Main
     End Sub
 
 
+
     Function Dijkstras(Start As String, MinimumIndex As Integer) As List(Of Station)
         Dim Visited As New List(Of Station)
         Dim Unvisited As List(Of Station) = Stations.ToList
@@ -76,7 +78,14 @@ Module Main
         Return Visited
     End Function
 
-    Class Station
+    Function Deserialize()
+        Dim bf As New BinaryFormatter
+        Using ms = New MemoryStream(My.Resources.StationInfo)
+            Return bf.Deserialize(ms)
+        End Using
+    End Function
+
+    <Serializable> Class Station
         Private Name As String
         Private ShortestRoutes As New List(Of Tuple(Of String, Integer)())
         Private Adjacents As New List(Of List(Of String))
@@ -84,7 +93,6 @@ Module Main
         'Line, Direction, Adjacent Station, Distance(km), Ideal Time(mins), Peak Time(mins), Off Peak Time(mins)
         Public TempCost As Decimal
         Public TempParent As Integer
-
 
         Sub New(NewName As String)
             Name = NewName

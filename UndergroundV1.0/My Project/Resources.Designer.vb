@@ -2241,18 +2241,28 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to Bakerloo ,Southbound,HARROW &amp; WEALDSTONE,KENTON,1.74,2.23,2.5,2.5
-        '''Bakerloo ,Southbound,KENTON,SOUTH KENTON,1.4,1.88,2,2
-        '''Bakerloo ,Southbound,SOUTH KENTON,NORTH WEMBLEY,0.9,1.5,1.5,1.5
-        '''Bakerloo ,Southbound,NORTH WEMBLEY,WEMBLEY CENTRAL,1.27,1.92,2.06,2.06
-        '''Bakerloo ,Southbound,WEMBLEY CENTRAL,STONEBRIDGE PARK,1.71,2.23,3.13,3.13
-        '''Bakerloo ,Southbound,STONEBRIDGE PARK,HARLESDEN,1.53,2.13,2.4,2.4
-        '''Bakerloo ,Southbound,HARLESDEN,WILLESDEN JUNCTION,1.05,1.65,2.23,2.23
-        '''Bakerloo ,Southbound,WILLESDEN JUNCTION, [rest of string was truncated]&quot;;.
+        '''  Looks up a localized string similar to Bakerloo,Southbound,HARROW &amp; WEALDSTONE,KENTON,1.74,2.23,2.5,2.5
+        '''Bakerloo,Southbound,KENTON,SOUTH KENTON,1.4,1.88,2,2
+        '''Bakerloo,Southbound,SOUTH KENTON,NORTH WEMBLEY,0.9,1.5,1.5,1.5
+        '''Bakerloo,Southbound,NORTH WEMBLEY,WEMBLEY CENTRAL,1.27,1.92,2.06,2.06
+        '''Bakerloo,Southbound,WEMBLEY CENTRAL,STONEBRIDGE PARK,1.71,2.23,3.13,3.13
+        '''Bakerloo,Southbound,STONEBRIDGE PARK,HARLESDEN,1.53,2.13,2.4,2.4
+        '''Bakerloo,Southbound,HARLESDEN,WILLESDEN JUNCTION,1.05,1.65,2.23,2.23
+        '''Bakerloo,Southbound,WILLESDEN JUNCTION,KENSAL G [rest of string was truncated]&quot;;.
         '''</summary>
         Friend ReadOnly Property StationConnections() As String
             Get
                 Return ResourceManager.GetString("StationConnections", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property StationInfo() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("StationInfo", resourceCulture)
+                Return CType(obj,Byte())
             End Get
         End Property
         
