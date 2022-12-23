@@ -1,21 +1,24 @@
 ﻿Imports System.IO
 Imports System.Runtime.Serialization.Formatters.Binary
 Imports System.Text.Encoding
-Module Main
+Module Underground
 
-    Private Stations(271) As Station
+    Private Routes(271) As Station
 
-    Sub Main()
-        '  initStations()
-        '  initConnections()
-        '  getShortestRoutes()
-        Stations = Deserialize()
+    Sub getRoutesFromFile()
+        Routes = Deserialize()
+    End Sub
+
+    Sub getRoutesFromDijkstras()
+        initStations()
+        initConnections()
+        getShortestRoutes()
     End Sub
     Sub initStations()
         Using reader As TextReader = New StringReader(My.Resources.StationNames)
             Dim i = 0
             Do Until i = 272
-                Stations(i) = New Station(reader.ReadLine)
+                Routes(i) = New Station(reader.ReadLine)
                 i += 1
             Loop
         End Using
@@ -26,7 +29,7 @@ Module Main
             Dim i = 0
             Do Until i = 743
                 Dim Info As List(Of String) = reader.ReadLine.Split(",").ToList
-                Stations.First(Function(Start) Info(2) = Start.GetName).AddConnection(Info)
+                Routes.First(Function(Start) Info(2) = Start.GetName).AddConnection(Info)
                 i += 1
             Loop
         End Using
@@ -35,13 +38,13 @@ Module Main
     Sub getShortestRoutes()
         For i = 0 To 271
             For j = 3 To 6
-                For Each Station In Dijkstras(Stations(i).GetName, j)
-                    Stations(i).addShortestRoute(Station, j - 2)
+                For Each Station In Dijkstras(Routes(i).GetName, j)
+                    Routes(i).addShortestRoute(Station, j - 2)
                 Next
             Next
             Console.WriteLine(i)
-            Stations(i).TempCost = 0
-            Stations(i).TempParent = 0
+            Routes(i).TempCost = 0
+            Routes(i).TempParent = 0
         Next
     End Sub
 
@@ -49,28 +52,28 @@ Module Main
 
     Function Dijkstras(Start As String, MinimumIndex As Integer) As List(Of Station)
         Dim Visited As New List(Of Station)
-        Dim Unvisited As List(Of Station) = Stations.ToList
+        Dim Unvisited As List(Of Station) = Routes.ToList
         Dim CurrentStation As Station
         Dim AdjacentStation As Station
 
-        For Each S In Stations
+        For Each S In Routes
             S.TempCost = 1000
         Next
         Unvisited(Unvisited.FindIndex(Function(Station) Station.GetName = Start.ToUpper)).TempCost = 0
         Do
             CurrentStation = Unvisited.OrderBy(Function(Station) Station.TempCost).First
             For Each Connection In CurrentStation.GetInfo
-                If Not Visited.Contains(Stations.First(Function(Station) Station.GetName = Connection(2))) Then
+                If Not Visited.Contains(Routes.First(Function(Station) Station.GetName = Connection(2))) Then
                     AdjacentStation = Unvisited(Unvisited.FindIndex(Function(Station) Station.GetName = Connection(2)))
                 Else
                     Continue For
                 End If
-                If AdjacentStation.TempCost = 1000 Or AdjacentStation.TempParent = Array.IndexOf(Stations, CurrentStation) Then
+                If AdjacentStation.TempCost = 1000 Or AdjacentStation.TempParent = Array.IndexOf(Routes, CurrentStation) Then
                     If AdjacentStation.TempCost > Connection(MinimumIndex) Then AdjacentStation.TempCost = Connection(MinimumIndex) + CurrentStation.TempCost
                 Else
                     If AdjacentStation.TempCost > CurrentStation.TempCost + Connection(MinimumIndex) Then AdjacentStation.TempCost += Connection(MinimumIndex)
                 End If
-                AdjacentStation.TempParent = Array.IndexOf(Stations, CurrentStation)
+                AdjacentStation.TempParent = Array.IndexOf(Routes, CurrentStation)
             Next
             Unvisited.Remove(CurrentStation)
             Visited.Add(CurrentStation)
