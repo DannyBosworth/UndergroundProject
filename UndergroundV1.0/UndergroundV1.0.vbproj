@@ -6,11 +6,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{A506711D-C5EC-4E58-8F2A-4B2DB2AFFB3B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>UndergroundV1._0.My.MyApplication</StartupObject>
+    <StartupObject>UndergroundV1._0.Main</StartupObject>
     <RootNamespace>UndergroundV1._0</RootNamespace>
     <AssemblyName>UndergroundV1.0</AssemblyName>
     <FileAlignment>512</FileAlignment>
-    <MyType>WindowsForms</MyType>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -45,6 +45,9 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Win32|AnyCPU'">
+    <OutputPath>bin\Win32\</OutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -70,10 +73,32 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainMenu.vb" />
-    <Compile Include="MainMenu.Designer.vb">
-      <DependentUpon>MainMenu.vb</DependentUpon>
+    <Compile Include="MainForm.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPanel.Designer.vb">
+      <DependentUpon>MenuPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPanel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RouteFinding.vb" />
+    <Compile Include="Main.vb" />
+    <Compile Include="RouteFindPanel.Designer.vb">
+      <DependentUpon>RouteFindPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RouteFindPanel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StartupPanel.Designer.vb">
+      <DependentUpon>StartupPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StartupPanel.vb">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Underground.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -94,14 +119,20 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="MainMenu.resx">
-      <DependentUpon>MainMenu.vb</DependentUpon>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPanel.resx">
+      <DependentUpon>MenuPanel.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartupPanel.resx">
+      <DependentUpon>StartupPanel.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

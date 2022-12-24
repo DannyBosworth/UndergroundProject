@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UndergroundV1.0", "UndergroundV1.0\UndergroundV1.0.vbproj", "{A506711D-C5EC-4E58-8F2A-4B2DB2AFFB3B}"
 EndProject
@@ -9,14 +9,20 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		Win32|Any CPU = Win32|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A506711D-C5EC-4E58-8F2A-4B2DB2AFFB3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A506711D-C5EC-4E58-8F2A-4B2DB2AFFB3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A506711D-C5EC-4E58-8F2A-4B2DB2AFFB3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A506711D-C5EC-4E58-8F2A-4B2DB2AFFB3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A506711D-C5EC-4E58-8F2A-4B2DB2AFFB3B}.Win32|Any CPU.ActiveCfg = Win32|Any CPU
+		{A506711D-C5EC-4E58-8F2A-4B2DB2AFFB3B}.Win32|Any CPU.Build.0 = Win32|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6578C6A9-1FF7-4197-B748-20A183608FEA}
 	EndGlobalSection
 EndGlobal

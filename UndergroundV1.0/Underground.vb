@@ -1,12 +1,14 @@
 ﻿Imports System.IO
 Imports System.Runtime.Serialization.Formatters.Binary
 Imports System.Text.Encoding
+Imports System.Threading
 Module Underground
 
-    Private Routes(271) As Station
+    Public Routes(271) As Station
 
     Sub getRoutesFromFile()
         Routes = Deserialize()
+        Console.Write(Routes)
     End Sub
 
     Sub getRoutesFromDijkstras()
@@ -46,6 +48,7 @@ Module Underground
             Routes(i).TempCost = 0
             Routes(i).TempParent = 0
         Next
+        Serialize()
     End Sub
 
 
@@ -87,6 +90,13 @@ Module Underground
             Return bf.Deserialize(ms)
         End Using
     End Function
+
+    Sub Serialize()
+        Dim bf As New BinaryFormatter
+        Using fs As New FileStream(Directory.GetParent(Directory.GetCurrentDirectory).Parent.FullName & "/Resources\StationInfo.bin", FileMode.OpenOrCreate)
+            bf.Serialize(fs, Routes)
+        End Using
+    End Sub
 
     <Serializable> Class Station
         Private Name As String
