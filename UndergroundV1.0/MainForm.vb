@@ -7,8 +7,6 @@ Public Class MainForm
     Private CurrentControls As New UserControl
 
     Private Sub Startup() Handles Me.Load
-        Dim th As New Thread(New ThreadStart(AddressOf getRoutesFromFile))
-        th.Start()
         initMenu()
         initContent()
     End Sub
@@ -25,13 +23,14 @@ Public Class MainForm
         CurrentControls = StartupControls
         Controls.Add(CurrentControls)
     End Sub
-    Public Sub switchPanels(newPanelIndex As Integer)
+    Public Sub switchPanels(newPanelIndex As Integer, NewPanel As Boolean)
         Controls.Remove(CurrentControls)
         Select Case newPanelIndex
             Case 0
                 CurrentControls = StartupControls
                 Text = "Main Menu"
             Case 1
+                '  If NewPanel Then RouteFindControls = New RouteFindPanel
                 CurrentControls = RouteFindControls
                 Text = "Route Finder"
         End Select

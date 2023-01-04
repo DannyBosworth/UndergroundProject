@@ -5,12 +5,12 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{A506711D-C5EC-4E58-8F2A-4B2DB2AFFB3B}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <StartupObject>UndergroundV1._0.Main</StartupObject>
     <RootNamespace>UndergroundV1._0</RootNamespace>
     <AssemblyName>UndergroundV1.0</AssemblyName>
     <FileAlignment>512</FileAlignment>
-    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <MyType>Console</MyType>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -130,6 +130,9 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RouteFindPanel.resx">
+      <DependentUpon>RouteFindPanel.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StartupPanel.resx">
       <DependentUpon>StartupPanel.vb</DependentUpon>

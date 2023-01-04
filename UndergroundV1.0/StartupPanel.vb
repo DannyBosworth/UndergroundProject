@@ -4,7 +4,7 @@
     End Sub
 
     Private Sub RouteFindButton_Click(sender As Object, e As EventArgs) Handles RouteFindButton.Click
-        MyMainForm.switchPanels(1)
+        MyMainForm.switchPanels(1, True)
     End Sub
 
 End Class
