@@ -10,7 +10,6 @@ Module Underground
 
     Sub getRoutesFromFile()
         Stations = Deserialize()
-        Console.Write(Stations)
     End Sub
 
     Sub getRoutesFromDijkstras()
@@ -42,8 +41,8 @@ Module Underground
     Sub getShortestRoutes()
         For i = 0 To 271
             For j = 3 To 6
-                For Each Station In Dijkstras(Stations(i).GetName, j)
-                    Stations(i).addShortestRoute(Station, j - 2)
+                For Each Node In Dijkstras(Stations(i), j)
+                    Stations(i).addShortestRoute(Node, j - 2)
                 Next
             Next
             Console.WriteLine(i)
@@ -55,33 +54,30 @@ Module Underground
 
 
 
-    Function Dijkstras(Start As String, MinimumIndex As Integer) As List(Of Station)
-        Dim Visited As New List(Of Station)
-        Dim Unvisited As List(Of Station) = Stations.ToList
-        Dim CurrentStation As Station
-        Dim AdjacentStation As Station
+    Function Dijkstras(Start As Station, MinimumIndex As Integer) As List(Of Node)
+        Dim Visited As New List(Of Node)
+        Dim Unvisited As New List(Of Node)
+        Dim CurrentNode As Node
+        Dim AdjacentNode As Node
 
         For Each S In Stations
-            S.TempCost = 1000
+            If S Is Start Then Unvisited.Add(New Node(S.GetName, True, S.GetInfo)) Else Unvisited.Add(New Node(S.GetName, False, S.GetInfo))
         Next
-        Unvisited(Unvisited.FindIndex(Function(Station) Station.GetName = Start.ToUpper)).TempCost = 0
         Do
-            CurrentStation = Unvisited.OrderBy(Function(Station) Station.TempCost).First
-            For Each Connection In CurrentStation.GetInfo
-                If Not Visited.Contains(Stations.First(Function(Station) Station.GetName = Connection(2))) Then
-                    AdjacentStation = Unvisited(Unvisited.FindIndex(Function(Station) Station.GetName = Connection(2)))
+            CurrentNode = Unvisited.OrderBy(Function(Node) Node.GetCost).First
+            For Each Connection In CurrentNode.GetAdjacents
+                If Unvisited.Find(Function(N) N.GetName = Connection(2)) IsNot Nothing Then
+                    AdjacentNode = Unvisited(Unvisited.FindIndex(Function(Node) Node.GetName = Connection(2)))
                 Else
                     Continue For
                 End If
-                If AdjacentStation.TempCost = 1000 Then ' Or AdjacentStation.TempParent = Array.IndexOf(Stations, CurrentStation) Then
-                    If AdjacentStation.TempCost > Connection(MinimumIndex) Then AdjacentStation.TempCost = Connection(MinimumIndex) + CurrentStation.TempCost
-                Else
-                    If AdjacentStation.TempCost > CurrentStation.TempCost + Connection(MinimumIndex) Then AdjacentStation.TempCost += Connection(MinimumIndex)
+                If AdjacentNode.GetCost > CurrentNode.GetCost + Connection(MinimumIndex) Then
+                    AdjacentNode.newCost(CurrentNode.GetCost + Connection(MinimumIndex))
+                    AdjacentNode.addParent(Visited.Count, Connection(MinimumIndex))
                 End If
-                AdjacentStation.TempParent = Array.IndexOf(Stations, CurrentStation)
             Next
-            Unvisited.Remove(CurrentStation)
-            Visited.Add(CurrentStation)
+            Unvisited.Remove(CurrentNode)
+            Visited.Add(CurrentNode)
         Loop Until Unvisited.Count = 0
         Return Visited
     End Function
@@ -118,14 +114,14 @@ Module Underground
             Adjacents.Add(Info)
         End Sub
 
-        Sub addShortestRoute(Station As Station, Index As Integer)
-            If ShortestRoutes.Find(Function(S As Route) S.GetName = Station.GetName) Is Nothing Then
-                Dim NewRoute As New Route(Station.GetName)
-                NewRoute.addConnection(Index, Station.TempCost, Station.TempParent)
+        Sub addShortestRoute(Node As Node, Index As Integer)
+            If ShortestRoutes.Find(Function(S As Route) S.GetName = Node.GetName) Is Nothing Then
+                Dim NewRoute As New Route(Node.GetName)
+                NewRoute.addConnection(Index, Node.GetCostToParent, Node.GetParent)
                 ShortestRoutes.Add(NewRoute)
                 Exit Sub
             Else
-                ShortestRoutes.Find(Function(S As Route) S.GetName = Station.GetName).addConnection(Index, Station.TempCost, Station.TempParent)
+                ShortestRoutes.Find(Function(S As Route) S.GetName = Node.GetName).addConnection(Index, Node.GetCostToParent, Node.GetParent)
             End If
         End Sub
 
@@ -144,6 +140,59 @@ Module Underground
         ReadOnly Property GetRoutes As List(Of Route)
             Get
                 Return ShortestRoutes
+            End Get
+        End Property
+    End Class
+
+    <Serializable> Class Node
+        Private Name As String
+        Private Cost As Decimal
+        Private Parent As Integer
+        Private CostToParent As Decimal
+        Private Connections As List(Of List(Of String))
+
+        Sub New(n As String, Start As Boolean, Adjacents As List(Of List(Of String)))
+            Name = n
+            If Start Then Cost = 0 Else Cost = 1000
+            Connections = Adjacents
+        End Sub
+
+        Sub newCost(NewCost As Decimal)
+            Cost = NewCost
+        End Sub
+
+        Sub addParent(Index As Integer, ParentCost As Decimal)
+            Parent = Index
+            CostToParent = ParentCost
+        End Sub
+
+        ReadOnly Property GetCostToParent As Decimal
+            Get
+                Return CostToParent
+            End Get
+        End Property
+
+        ReadOnly Property GetParent As Integer
+            Get
+                Return Parent
+            End Get
+        End Property
+
+        ReadOnly Property GetCost As Decimal
+            Get
+                Return Cost
+            End Get
+        End Property
+
+        ReadOnly Property GetAdjacents As List(Of List(Of String))
+            Get
+                Return Connections
+            End Get
+        End Property
+
+        ReadOnly Property GetName As String
+            Get
+                Return Name
             End Get
         End Property
     End Class

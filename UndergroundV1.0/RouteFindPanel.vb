@@ -24,6 +24,7 @@ Public Class RouteFindPanel
             For Each Station In CurrentRoute.GetStations
                 Console.WriteLine(Station)
             Next
+            Console.WriteLine(CurrentRoute.GetTotalCost)
         End If
     End Sub
 

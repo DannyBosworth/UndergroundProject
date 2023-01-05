@@ -59,6 +59,12 @@ Module RouteFinding
                 Return Costs
             End Get
         End Property
+
+        ReadOnly Property GetTotalCost As Decimal
+            Get
+                Return TotalCost
+            End Get
+        End Property
     End Class
 
 End Module

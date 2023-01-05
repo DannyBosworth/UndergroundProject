@@ -10,6 +10,6 @@ Module Main
 
         th.Start()
         Application.Run(MyMainForm)
-        ' getRoutesFromDijkstras()
+        'getRoutesFromDijkstras()
     End Sub
 End Module
