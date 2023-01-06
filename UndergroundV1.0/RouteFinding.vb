@@ -1,6 +1,6 @@
 ﻿Imports System.IO
 
-Module RouteFinding
+Public Module RouteFinding
     Function getNames()
         Dim Names(271) As String
         Using reader As TextReader = New StringReader(My.Resources.StationNames)
@@ -26,7 +26,7 @@ Module RouteFinding
             End If
         Next
         Do Until CurrentStation = 0
-            Route.addStation(Stations(StartIndex).GetRoutes(CurrentStation).GetName, Stations(StartIndex).GetRoutes(CurrentStation).GetRoute(SortIndex)(0))
+            Route.addStation(Stations(StartIndex).GetRoutes(CurrentStation).GetName, Stations(StartIndex).GetRoutes(CurrentStation).GetRoute(SortIndex)(0), Stations(StartIndex).GetRoutes(CurrentStation).GetRoute(SortIndex)(2))
             CurrentStation = Stations(StartIndex).GetRoutes(CurrentStation).GetRoute(SortIndex)(1)
         Loop
         Route.routeFinished()
@@ -36,10 +36,12 @@ Module RouteFinding
     Class RouteInfo
         Private Stations As New List(Of String)
         Private Costs As New List(Of Decimal)
+        Private Lines As New List(Of String)
         Private TotalCost As Decimal
-        Sub addStation(Name As String, Cost As Decimal)
+        Sub addStation(Name As String, Cost As Decimal, Line As String)
             Stations.Add(Name)
             Costs.Add(Cost)
+            Lines.Add(Line)
         End Sub
 
         Sub routeFinished()
@@ -63,6 +65,12 @@ Module RouteFinding
         ReadOnly Property GetTotalCost As Decimal
             Get
                 Return TotalCost
+            End Get
+        End Property
+
+        ReadOnly Property GetLines As List(Of String)
+            Get
+                Return Lines
             End Get
         End Property
     End Class

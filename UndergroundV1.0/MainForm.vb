@@ -30,7 +30,7 @@ Public Class MainForm
                 CurrentControls = StartupControls
                 Text = "Main Menu"
             Case 1
-                '  If NewPanel Then RouteFindControls = New RouteFindPanel
+                If NewPanel Then RouteFindControls = New RouteFindPanel
                 CurrentControls = RouteFindControls
                 Text = "Route Finder"
         End Select

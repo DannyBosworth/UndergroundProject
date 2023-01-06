@@ -86,6 +86,12 @@
     <Compile Include="MenuPanel.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="RouteDisplay.Designer.vb">
+      <DependentUpon>RouteDisplay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RouteDisplay.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="RouteFinding.vb" />
     <Compile Include="Main.vb" />
     <Compile Include="RouteFindPanel.Designer.vb">
@@ -98,6 +104,12 @@
       <DependentUpon>StartupPanel.vb</DependentUpon>
     </Compile>
     <Compile Include="StartupPanel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StationName.Designer.vb">
+      <DependentUpon>StationName.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StationName.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Underground.vb" />
@@ -131,11 +143,17 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="RouteDisplay.resx">
+      <DependentUpon>RouteDisplay.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RouteFindPanel.resx">
       <DependentUpon>RouteFindPanel.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StartupPanel.resx">
       <DependentUpon>StartupPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StationName.resx">
+      <DependentUpon>StationName.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

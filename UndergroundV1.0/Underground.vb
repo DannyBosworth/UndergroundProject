@@ -73,7 +73,7 @@ Module Underground
                 End If
                 If AdjacentNode.GetCost > CurrentNode.GetCost + Connection(MinimumIndex) Then
                     AdjacentNode.newCost(CurrentNode.GetCost + Connection(MinimumIndex))
-                    AdjacentNode.addParent(Visited.Count, Connection(MinimumIndex))
+                    AdjacentNode.addParent(Visited.Count, Connection(MinimumIndex), Connection(0))
                 End If
             Next
             Unvisited.Remove(CurrentNode)
@@ -117,11 +117,11 @@ Module Underground
         Sub addShortestRoute(Node As Node, Index As Integer)
             If ShortestRoutes.Find(Function(S As Route) S.GetName = Node.GetName) Is Nothing Then
                 Dim NewRoute As New Route(Node.GetName)
-                NewRoute.addConnection(Index, Node.GetCostToParent, Node.GetParent)
+                NewRoute.addConnection(Index, Node)
                 ShortestRoutes.Add(NewRoute)
                 Exit Sub
             Else
-                ShortestRoutes.Find(Function(S As Route) S.GetName = Node.GetName).addConnection(Index, Node.GetCostToParent, Node.GetParent)
+                ShortestRoutes.Find(Function(S As Route) S.GetName = Node.GetName).addConnection(Index, Node)
             End If
         End Sub
 
@@ -149,6 +149,7 @@ Module Underground
         Private Cost As Decimal
         Private Parent As Integer
         Private CostToParent As Decimal
+        Private LineToParent As String
         Private Connections As List(Of List(Of String))
 
         Sub New(n As String, Start As Boolean, Adjacents As List(Of List(Of String)))
@@ -161,9 +162,10 @@ Module Underground
             Cost = NewCost
         End Sub
 
-        Sub addParent(Index As Integer, ParentCost As Decimal)
+        Sub addParent(Index As Integer, ParentCost As Decimal, Line As String)
             Parent = Index
             CostToParent = ParentCost
+            LineToParent = Line
         End Sub
 
         ReadOnly Property GetCostToParent As Decimal
@@ -195,25 +197,31 @@ Module Underground
                 Return Name
             End Get
         End Property
+
+        ReadOnly Property GetLine As String
+            Get
+                Return LineToParent
+            End Get
+        End Property
     End Class
 
     <Serializable> Class Route
         Private StationName As String
-        Private Distance() As Decimal
-        Private IdealTime() As Decimal
-        Private PeakTime() As Decimal
-        Private OffPeaktime() As Decimal
+        Private Distance() As String
+        Private IdealTime() As String
+        Private PeakTime() As String
+        Private OffPeaktime() As String
 
         Sub New(Name As String)
             StationName = Name
         End Sub
 
-        Sub addConnection(Index As Integer, Cost As Decimal, Parent As Decimal)
+        Sub addConnection(Index As Integer, Node As Node)
             Select Case Index
-                Case 1 : Distance = {Cost, Parent}
-                Case 2 : IdealTime = {Cost, Parent}
-                Case 3 : PeakTime = {Cost, Parent}
-                Case 4 : OffPeaktime = {Cost, Parent}
+                Case 1 : Distance = {Node.GetCost, Node.GetParent, Node.GetLine}
+                Case 2 : IdealTime = {Node.GetCost, Node.GetParent, Node.GetLine}
+                Case 3 : PeakTime = {Node.GetCost, Node.GetParent, Node.GetLine}
+                Case 4 : OffPeaktime = {Node.GetCost, Node.GetParent, Node.GetLine}
             End Select
         End Sub
 
@@ -223,7 +231,7 @@ Module Underground
             End Get
         End Property
 
-        ReadOnly Property GetRoute(Index As Integer) As Decimal()
+        ReadOnly Property GetRoute(Index As Integer) As String()
             Get
                 Select Case Index
                     Case 1 : Return Distance

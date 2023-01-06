@@ -3,7 +3,7 @@
         MyMainForm.switchPanels(0, False)
     End Sub
 
-    Private Sub RouteFindButton_Click(sender As Object, e As MouseEventArgs) Handles RouteFindButton.Click
+    Private Sub RouteFindButton_Click(sender As Object, e As MouseEventArgs) Handles RouteFindButton.MouseDown
         If e.Button = MouseButtons.Left Then
             MyMainForm.switchPanels(1, False)
         ElseIf e.Button = MouseButtons.Right Then
