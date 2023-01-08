@@ -27,7 +27,8 @@ Partial Class StationName
         '
         'NameBox
         '
-        Me.NameBox.BackColor = System.Drawing.Color.White
+        Me.NameBox.BackColor = System.Drawing.Color.Gray
+        Me.NameBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.NameBox.Font = New System.Drawing.Font("London Tube", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.NameBox.Location = New System.Drawing.Point(0, 0)
         Me.NameBox.Multiline = True

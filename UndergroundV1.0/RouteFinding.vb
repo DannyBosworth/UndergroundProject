@@ -48,6 +48,7 @@ Public Module RouteFinding
             TotalCost = Costs.Sum
             Stations.Reverse()
             Costs.Reverse()
+            Lines.Reverse()
         End Sub
 
         ReadOnly Property GetStations() As List(Of String)
