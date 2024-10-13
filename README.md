@@ -1,4 +1,4 @@
-##Underground Route Finding Project
+# Underground Route Finding Project
 
 A VB.net project which calculates and displays the fastest route between any two stations on the London Tube Map (using data supplied from FoI requests to TfGL)
 
